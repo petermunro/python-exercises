@@ -30,13 +30,13 @@ b. Try adding the number 4 to the frozenset. What happens?
 
 ## 4. Dictionaries
 
-a. Create a dictionary with keys 'a', 'b', and 'c' and values 1, 2, and 3.
+a. Create a dictionary with keys `'a'`, `'b'`, and `'c'` and values `1`, `2`, and `3`.
 
-b. Add a key 'd' with the value 4 to the dictionary.
+b. Add a key `'d'` with the value `4` to the dictionary.
 
-c. Remove the key 'b' and its associated value from the dictionary.
+c. Remove the key `'b'` and its associated value from the dictionary.
 
-d. Check if the key 'e' is in the dictionary.
+d. Check if the key `'e'` is in the dictionary.
 
 e. Loop through the dictionary and print each key-value pair.
 
