@@ -6,15 +6,11 @@ Write code to answer these practice questions:
 
 1. Create a set, `set1` containing the numbers 1, 2, and 3.
 
-2. Create a set, `set2` from the list `[ 4, 4, 1, 3, 3, 3, 7, 2, 2]`.
-
-3. Create a set, `set3` from all of the uppercase characters in the string `"Present Fears Are Less Than Horrible Imaginings."`
-
-4. Find all of the unique words in this string: `"double, double toil and trouble; fire burn and cauldron bubble."`.
+2. Create a set, `set2` from the list `[ 4, 4, 1, 3, 3, 3, 7, 2, 2]`. Verify that this set does not contain duplicates.
 
 ## 2. Set Operations
 
-1. Add the number 4 to `set1`.
+1. Add the number 5 to `set1`.
 
 2. Remove the number 2 from the set.
 
@@ -26,7 +22,31 @@ Write code to answer these practice questions:
 
 1. Create a frozenset containing the numbers 1, 2, and 3.
 
-2. Try adding the number 4 to the frozenset. What happens?
+2. Try adding the number 5 to the frozenset. What happens?
+
+## 4. Set Comprehensions
+
+1. From this list of numbers, create a set of their squares:
+
+   ```python
+   numbers = [1, 2, 3, 4, 5]
+   ```
+
+2. From this list of numbers, produce a set of just the positive numbers : `[-4, -2, 0, 2, 4, 6, 8]`
+
+3. Create a set of unique tuples from these:
+
+   ```python
+   tuples = [(1, 2), (1, 2), (2, 3), (3, 4), (2, 3)]
+   ```
+
+4. Create a set of all of the uppercase characters in the string `"Present Fears Are Less Than Horrible Imaginings."`
+
+5. Find all of the unique words in this string: `"double, double toil and trouble; fire burn and cauldron bubble."`.
+
+   > Hint: You can start with this string:
+   > "double double toil and trouble fire burn and cauldron bubble"
+   > Then investigate the `strip()` function.
 
 ## 4. Dictionaries
 
