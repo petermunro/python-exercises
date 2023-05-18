@@ -32,11 +32,11 @@ Write code to answer these practice questions:
 
 ## 4. Ranges
 
-1. Create a range of numbers from 0 to 10.
+1. Create a range of numbers from 0 to 10 inclusive.
 
 2. Convert the range to a list.
 
-3. Use a range to create a list of all even numbers from 0 to 20.
+3. Use a range to create a list of all even numbers from 0 to 20 inclusive.
 
 ## 5. Common Sequence Operations
 
@@ -48,7 +48,7 @@ Write code to answer these practice questions:
 
 ## 6. Slicing
 
-1. Given the list `[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]`, get a slice from index `3` to `7`.
+1. Given the list `[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]`, get a slice from index `3` to `7` inclusive.
 
 2. Get the last three elements of the list.
 

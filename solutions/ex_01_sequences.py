@@ -58,17 +58,17 @@ list(t1)
 
 # 4. Ranges
 
-# 1. Create a range of numbers from 0 to 10.
+# 1. Create a range of numbers from 0 to 10 inclusive.
 
-r1 = range(10)
+r1 = range(11)
 
 # 2. Convert the range to a list.
 
 list(r1)
 
-# 3. Use a range to create a list of all even numbers from 0 to 20.
+# 3. Use a range to create a list of all even numbers from 0 to 20 inclusive.
 
-list(range(0, 20, 2))
+list(range(0, 21, 2))
 
 
 # 5. Common Sequence Operations
@@ -89,10 +89,10 @@ l1.index(3)
 
 # 6. Slicing
 
-# 1. Given the list `[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]`, get a slice from index `3` to `7`.
+# 1. Given the list `[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]`, get a slice from index `3` to `7` inclusive.
 
 l1 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-l1[3:7]
+l1[3:8]
 
 # 2. Get the last three elements of the list.
 
